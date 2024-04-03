@@ -1,0 +1,23 @@
+=== With a Tourapist account.
+
+* Just login with an account ending with `@tourapist.com`
+* You should see list of recorded tours (these tours are recorded by local guides)
+
+include::tour-list-explanation.adoc[]
+
+* You can play `Test AI Amsterdam` from anywhere around the world.
+
+include::purchase-tour-before-playing.adoc[]
+
+// * You can play `$test-tour-name` from anywhere around the world.
+// https://appstoreconnect.apple.com/apps/6474066954/distribution/reviewsubmissions/details/f4c90291-5d2b-41aa-b267-cfb6d8568c00
+** App requires persistent audio
+*** Move app to background (the tour should still continue playing on either speaker or air pods)
+*** minimize the app while the tour is playing
+*** Lock and then Unlock the phone while the tour is playing
+*** The tour should continue playing
+*** Location indicator shows the app is using location in the background
+*** If using air pods, make sure all buttons continue functioning as expected
+*** switch back to Tourapist app
+*** The app continues to run the tour until this story is finished.
+*** After the story is finished, the app should switch to the next story unless this was the last story.
