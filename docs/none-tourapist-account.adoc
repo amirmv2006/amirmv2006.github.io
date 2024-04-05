@@ -1,0 +1,22 @@
+=== with a Non-Tourapist account.
+// test-app@tourapist.com is an exception
+* Login with any other account other than accounts with email ending in `@tourapist.com`
+* You should see list of recorded tours (these tours are recorded by local guides)
+** You won't see `Test AI Amsterdam`
+
+include::tour-list-explanation.adoc[]
+
+// * You won't see `$test-tour-name`
+
+// ** eg. from another country other than yours
+** Play the tour from a different city by clicking on the Play icon in the top right corner
+
+include::purchase-tour-before-playing.adoc[]
+
+** Give the location permission if asked, we need this location for letting the user know how far they are from the guide who recorded this tour
+** "Disclaimer" story will play.
+** The next story should stop playing because yor are `"too far"` from the guide when they recorded this tour. This is indicated in the app by marking distance from the guide in red text.
+*** At this point you will see the player showing distance from the guide with red text
+*** You will also see a map on top of that page showing where you're supposed to be (you should also see where you are on the map)
+*** The Play button is changed to Navigate icon providing a shortcut using phone's map app to help the tourist navigate to where they are supposed to be
+*** Once using the map app you get `"Close Enough"` to where the tour guide was when recording this tour, the app will automatically continue playing the tour. (eg. for the "New Church" story, tourist has to be on `latitude: 52.37350848331429` and `longitude: 4.891983810062104`)

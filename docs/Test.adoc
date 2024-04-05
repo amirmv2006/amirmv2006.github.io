@@ -1,0 +1,18 @@
+= Testing Tourapist App
+
+TIP: If you face problems with github showing the docs, install link:https://github.com/asciidoctor/asciidoctor-browser-extension[Asciidoctor browser extension] and select raw file icon.
+
+// Test doc configurations
+// https://www.google.com/search?q=asciidoc+chrome+plugin+not+rendering+variables+correctly&rlz=1C5CHFA_enNL1081NL1081&oq=asciidoc+chrome+plugin+not+rendering+variables+correctly&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCTE3NTM0ajBqNKgCALACAA&sourceid=chrome&ie=UTF-8
+// https://docs.asciidoctor.org/pdf-converter/latest/theme/variables/#define
+// if you installed the chrome plugin, click [here](https://amirmv2006.github.io/adding-test-docs-for-Tourapist/docs/Test.adoc)
+// -----------------------
+// test:
+//     # make sure this tour exists by following linkL:[this]
+//     tour-name: #Test AI Amsterdam
+//
+// see https://raw.githubusercontent.com/amirmv2006/amirmv2006.github.io/adding-test-docs-for-Tourapist/docs/with-tourapist-account.adoc
+include::with-tourapist-account.adoc[]
+
+// see https://raw.githubusercontent.com/amirmv2006/amirmv2006.github.io/adding-test-docs-for-Tourapist/docs/none-tourapist-account.adoc
+include::none-tourapist-account.adoc[]

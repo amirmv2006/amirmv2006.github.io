@@ -1,0 +1,12 @@
+make sure this tour exists!
+
+[yaml]
+----
+
+tours:
+    - name: "Test AI Amsterdam"
+      guide: "bjDH3DYwbKeembPj0pgBk2vywwX2"
+      durationMs: 10000
+      id: "zzzzzzzzzzzzzzzzzzzzzTestTour"
+      testTour: true
+----

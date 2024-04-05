@@ -1,0 +1,4 @@
+*** If you don't see Play icon in the top right corner of a tour, that's because you haven't purchased this tour already.
+*** Click on purchase button in the bottom right corner, a dialog will open.
+Enter `"SpringForFree"` as the code and click "Save".
+This will add the tour to the list of your purchased tours and allows you to play the tour now.

@@ -1,0 +1,2 @@
+** Tours which are not purchased by you have black background and a purchase button on the bottom right (screenshot: image:UnpurchasedTour.png[Unpurchased Tour, 200, 200])
+** Tours which are purchased by you are highlighted with green background and have the play button shown on top right (screenshot: image:PurchasedTour.png[Purchased Tour, 200, 200])
